@@ -1,0 +1,8 @@
+build/
+lib/curl/
+lib/*.dll
+lib/*.a
+detections/
+*.exe
+*.o
+*.dll

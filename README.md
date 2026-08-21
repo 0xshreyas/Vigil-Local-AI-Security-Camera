@@ -1,6 +1,6 @@
 # Vigil — Local AI Security Camera
 A motion-triggered security camera written in **pure C**. It watches the webcam and detects motion via frame differencing. Only then it sends the captured frame to a local vision-language model for a description. No openCV, no Python runtime and no data leaves the system/machine.
-
+![Vigil detecting motion](demo.png)
 --------------------
 # Why?
 Sending every frame to a vision model is wasteful. A 1080p stream each frame costs about 2500 tokens and several seconds of inference. Most frames show nothing is happening.
